@@ -38,11 +38,24 @@ This project is a computer vision application that translates hand gestures into
 
 1. Show a sign to the camera.
 
-2. Hold it until the green loading bar fills up.
+3. Hold it until the green loading bar fills up.
 
-3. The letter will be added to your sentence!
+4. The letter will be added to your sentence!
 
-4. Press 'q' to quit the application.
+5. Press 'q' to quit the application.
+
+🛠️ How it Works
+We will check the "state" of each finger (Up or Down).
+
+- Sign 'A': All fingers folded, Thumb is Up (or tucked).
+
+- Sign 'B': All 4 fingers Up, Thumb tucked in.
+
+- Sign 'L': Thumb and Index Finger Up.
+
+- Sign 'V': Index and Middle Finger Up.
+
+- Sign 'Y': Thumb and Pinky Finger Up.
 
 🧠 Tech Stack
 
