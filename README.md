@@ -22,16 +22,17 @@ This project is a computer vision application that translates hand gestures into
 
 -MediaPipe
 
-🚀 How to Run
+🚀 How to Run (The Easy Way)
 
-1. Install the required libraries:
+I have created a one-click launcher to make this easy!
 
-     pip install -r requirements.txt
+1 .Download this repository.
 
+2. Double-click the run.bat file.
 
-2. Run the script:
- 
-    python sign_language_project.py
+     - 🪄 It will automatically install all required libraries.
+
+     - 🎥 It will launch the camera application instantly.
 
 
 🎮 How to Use
