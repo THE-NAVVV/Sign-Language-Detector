@@ -1,2 +1,53 @@
-# Sign-Language-Detector
-A Computer Vision application that interprets hand gestures into text input without external hardware. Implements a geometric rule-based classifier for recognizing static signs.
+Real-Time Sign Language to Text Editor ✋📝
+
+This project is a computer vision application that translates hand gestures into text in real-time. It uses OpenCV for video processing and MediaPipe for hand landmark detection.
+
+🌟 Features
+
+- Sign Detection: Recognizes 5 alphabet signs: A, B, L, V, Y.
+
+- Smart Typing: Hold a sign for 1.5 seconds to type the character.
+
+- Space & Delete: * Show an Open Hand (5 fingers) to add a Space.
+
+- Show a Fist (0 fingers) to Delete the last character.
+
+- Visual Interface: Shows a live loading bar and the current sentence on screen.
+
+🛠️ Requirements
+
+-Python 3.x
+
+-OpenCV
+
+-MediaPipe
+
+🚀 How to Run
+
+1. Install the required libraries:
+
+     pip install -r requirements.txt
+
+
+2. Run the script:
+ 
+    python sign_language_project.py
+
+
+🎮 How to Use
+
+1. Show a sign to the camera.
+
+2. Hold it until the green loading bar fills up.
+
+3. The letter will be added to your sentence!
+
+4. Press 'q' to quit the application.
+
+🧠 Tech Stack
+
+- OpenCV: For video capture and image processing.
+
+- MediaPipe: For extracting 21 hand landmarks.
+
+- Python: Core logic using geometric rules (Cartesian coordinates).
